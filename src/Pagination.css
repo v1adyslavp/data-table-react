@@ -1,0 +1,15 @@
+.Pagination-page {
+  background: lightblue;
+  padding: 3px 7px 3px 7px;
+  border-radius: 50%;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.Pagination-page:hover {
+  color: white;
+}
+
+.Pagination-active {
+  background: orange;
+}
