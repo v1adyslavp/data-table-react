@@ -1,0 +1,78 @@
+.TableComponent-container {
+  position: relative;
+  text-align: right;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TableComponent-pagination-container {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.TableComponent-items-per-page {
+  float: left;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.TableComponent-filter-container {
+  margin: 0 0 10px 0;
+}
+
+.TableComponent-filter-container button {
+  background: lightblue;
+  border-width: 0;
+  margin-left: 1px;
+  padding: 3px;
+}
+
+.TableComponent-filter-container button:hover {
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.TableComponent-filter-container input {
+  border: 2px solid lightblue;
+  border-radius: 0 15px 15px 0;
+}
+
+.TableComponent-filter-selected-btn {
+  border-width: 0;
+  border-radius: 15px 0 0 15px;
+}
+
+.TableComponent-pagination-bot-container {
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+
+.TableComponent-table-sortable-header:hover {
+  color: coral;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+td:first-child {
+  width: 30px;
+}
+
+td:nth-child(2) {
+  min-width: 180px;
+}
+
+td:nth-child(3) {
+  min-width: 80px;
+}
